@@ -1,7 +1,7 @@
 import json
 import sys
 
-with open("foodlist.json") as file:
+with open("lista-combinada.json.json") as file:
     # Load its content and make a new dictionary
     data = json.load(file)
 
