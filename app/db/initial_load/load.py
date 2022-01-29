@@ -24,7 +24,7 @@ class InitialLoad:
                 for i in data:
                     table = TabelaNutricional()
                     table.id = i[0]
-                    table.table.description = i[1]
+                    table.description = i[1]
                     table.category = i[2]
                     table.humidity_percents = i[3]
                     table.energy_kcal = i[4]
