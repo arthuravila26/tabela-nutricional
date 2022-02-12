@@ -16,11 +16,12 @@ class MongoConfigs:
 
 
 class MongoDB:
-    def __init__(self):
-        self.settings = MongoConfigs()
-        self.__connection()
+    def __init__(self, host=None):
+        self.host = host
+        self.__set_connection()
 
-    def __connection(self):
-        logger.debug('Connecting to MongoDB')
-        mongoengine.connection(host=MongoConfigs.MONGODB_URI)
+    def __set_connection(self):
+        logger.debug('Connecting to Mongo')
+        host = self.host if self.host else MongoConfigs.MONGODB_URI
+        mongoengine.connect(host=host)
         logger.debug('Connected to Mongo')

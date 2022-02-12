@@ -1,15 +1,18 @@
-from pymongo import MongoClient
-from pymongo.errors import ServerSelectionTimeoutError
+import os
 
-from app.db.mongo_conn import MongoConfigs
+import mongoengine
+
 from app.utils.logger import logger
 
 
 def mongo_healthcheck():
-    conn = MongoClient(f'{MongoConfigs.MONGODB_URI}', serverSelectionTimeoutMS=10000, connectTimeoutMS=10000)
     try:
-        info = conn.server_info()
+        client = mongoengine.connect(host=os.getenv('MONGO_URI'), serverSelectionTimeoutMS=5000)
+        client.server_info()
         return True
-    except ServerSelectionTimeoutError:
-        logger.critical("MongoDB is down.")
+    except mongoengine.ConnectionFailure:
+        logger.error(f"Connection Failure with database")
+        return False
+    except Exception as e:
+        logger.error(f"Something happend in connect db {e.args}")
         return False
