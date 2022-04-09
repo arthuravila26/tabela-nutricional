@@ -7,6 +7,7 @@ class TabelaNutricional(Document):
     humidity_percents = DynamicField(required=True)
     energy_kcal = DynamicField(required=True)
     energy_kj = DynamicField(required=True)
+    protein_g = DynamicField(required=True)
     lipidius_g = DynamicField(required=True)
     cholesterol_mg = DynamicField(required=True)
     carbohydrate_g = DynamicField(required=True)
@@ -77,6 +78,9 @@ class TabelaNutricional(Document):
     def get_by_description(doc_cls, queryset, description):
         nutriente = queryset(description=str(description)).first()
         return nutriente
+
+    def get_all(self):
+        return TabelaNutricional.objects().all()
 
     meta = {
         'tabela_nutricional': 'tabela_nutricional'

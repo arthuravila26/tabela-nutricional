@@ -1,3 +1,5 @@
+import json
+
 from fastapi import FastAPI
 from starlette.responses import JSONResponse
 
@@ -8,4 +10,4 @@ app = FastAPI()
 
 @app.get('/tabelas', status_code=200)
 def get_todas_descrições():
-    return TabelaService().get_all()
+    return TabelaService().get_all_table()
