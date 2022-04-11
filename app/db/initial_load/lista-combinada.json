@@ -28401,7 +28401,7 @@
     },
     {
       "id": 401,
-      "description": "Frango, filé, à milanesa",
+      "description": "frango_file_a_milanesa",
       "category": "Carnes e derivados",
       "humidity_percents": 54.89,
       "energy_kcal": 220.87278,
@@ -28472,7 +28472,7 @@
     },
     {
       "id": 402,
-      "description": "Frango, inteiro, com pele, cru",
+      "description": "frango_inteiro_com_pele_cru",
       "category": "Carnes e derivados",
       "humidity_percents": 66.54,
       "energy_kcal": 226.319166666667,
@@ -28543,7 +28543,7 @@
     },
     {
       "id": 403,
-      "description": "Frango, inteiro, sem pele, assado",
+      "description": "frango_inteiro_sem_pele_assado",
       "category": "Carnes e derivados",
       "humidity_percents": 63.1973333333333,
       "energy_kcal": 187.337796666667,
@@ -28614,7 +28614,7 @@
     },
     {
       "id": 404,
-      "description": "Frango, inteiro, sem pele, cozido",
+      "description": "frango_inteiro_sem_pele_cozido",
       "category": "Carnes e derivados",
       "humidity_percents": 67.4526666666667,
       "energy_kcal": 170.389975833333,
@@ -28685,7 +28685,7 @@
     },
     {
       "id": 405,
-      "description": "Frango, inteiro, sem pele, cru",
+      "description": "frango_inteiro_sem_pele_cru",
       "category": "Carnes e derivados",
       "humidity_percents": 74.8566666666667,
       "energy_kcal": 129.0964,
@@ -28756,7 +28756,7 @@
     },
     {
       "id": 406,
-      "description": "Frango, peito, com pele, assado",
+      "description": "frango_peito_com_pele_assado",
       "category": "Carnes e derivados",
       "humidity_percents": 58.5366666666667,
       "energy_kcal": 211.683149530729,
@@ -28827,7 +28827,7 @@
     },
     {
       "id": 407,
-      "description": "Frango, peito, com pele, cru",
+      "description": "frango_peito_com_pele_cru",
       "category": "Carnes e derivados",
       "humidity_percents": 71.9433333333333,
       "energy_kcal": 149.465266666667,
@@ -28898,7 +28898,7 @@
     },
     {
       "id": 408,
-      "description": "Frango, peito, sem pele, cozido",
+      "description": "frango_peito_sem_pele_cozido",
       "category": "Carnes e derivados",
       "humidity_percents": 65.569,
       "energy_kcal": 162.874763346314,
@@ -28969,7 +28969,7 @@
     },
     {
       "id": 409,
-      "description": "Frango, peito, sem pele, cru",
+      "description": "frango_peito_sem_pele_cru",
       "category": "Carnes e derivados",
       "humidity_percents": 74.7933333333333,
       "energy_kcal": 119.159266666667,
@@ -29040,7 +29040,7 @@
     },
     {
       "id": 410,
-      "description": "Frango, peito, sem pele, grelhado",
+      "description": "frango_peito_sem_pele_grelhado",
       "category": "Carnes e derivados",
       "humidity_percents": 63.8093333333333,
       "energy_kcal": 159.185007192612,
@@ -29111,7 +29111,7 @@
     },
     {
       "id": 411,
-      "description": "Frango, sobrecoxa, com pele, assada",
+      "description": "frango_sobrecoxa_com_pele_assada",
       "category": "Carnes e derivados",
       "humidity_percents": 55.0043333333333,
       "energy_kcal": 259.604769166667,
@@ -29182,7 +29182,7 @@
     },
     {
       "id": 412,
-      "description": "Frango, sobrecoxa, com pele, crua",
+      "description": "frango_sobrecoxa_com_pele_crua",
       "category": "Carnes e derivados",
       "humidity_percents": 63.58,
       "energy_kcal": 254.5322,
@@ -29253,7 +29253,7 @@
     },
     {
       "id": 413,
-      "description": "Frango, sobrecoxa, sem pele, assada",
+      "description": "frango_sobrecoxa_sem_pele_assada",
       "category": "Carnes e derivados",
       "humidity_percents": 55.63,
       "energy_kcal": 232.883396666667,
@@ -29324,7 +29324,7 @@
     },
     {
       "id": 414,
-      "description": "Frango, sobrecoxa, sem pele, crua",
+      "description": "frango_sobrecoxa_sem_pele_crua",
       "category": "Carnes e derivados",
       "humidity_percents": 72.7066666666667,
       "energy_kcal": 161.7963,
@@ -29395,7 +29395,7 @@
     },
     {
       "id": 415,
-      "description": "Hambúrguer, bovino, cru",
+      "description": "hamburguer_bovino_cru",
       "category": "Carnes e derivados",
       "humidity_percents": 63.6046666666667,
       "energy_kcal": 214.836,
@@ -29466,7 +29466,7 @@
     },
     {
       "id": 416,
-      "description": "Hambúrguer, bovino, frito",
+      "description": "hamburguer_bovino_frito",
       "category": "Carnes e derivados",
       "humidity_percents": 52.4566666666667,
       "energy_kcal": 258.283,
@@ -29537,7 +29537,7 @@
     },
     {
       "id": 417,
-      "description": "Hambúrguer, bovino, grelhado",
+      "description": "hamburguer_bovino_grelhado",
       "category": "Carnes e derivados",
       "humidity_percents": 59.2276666666667,
       "energy_kcal": 209.831666666667,
@@ -29608,7 +29608,7 @@
     },
     {
       "id": 418,
-      "description": "Lingüiça, frango, crua",
+      "description": "linguica_frango_crua",
       "category": "Carnes e derivados",
       "humidity_percents": 64.7606666666667,
       "energy_kcal": 218.108814166667,
@@ -29679,7 +29679,7 @@
     },
     {
       "id": 419,
-      "description": "Lingüiça, frango, frita",
+      "description": "linguica_frango_frita",
       "category": "Carnes e derivados",
       "humidity_percents": 59.5706666666667,
       "energy_kcal": 245.461006666667,
@@ -29750,7 +29750,7 @@
     },
     {
       "id": 420,
-      "description": "Lingüiça, frango, grelhada",
+      "description": "linguica_frango_grelhada",
       "category": "Carnes e derivados",
       "humidity_percents": 58.583,
       "energy_kcal": 243.6585675,
@@ -29821,7 +29821,7 @@
     },
     {
       "id": 421,
-      "description": "Lingüiça, porco, crua",
+      "description": "linguica_porco_crua",
       "category": "Carnes e derivados",
       "humidity_percents": 62.4826666666667,
       "energy_kcal": 227.203450833333,
@@ -29892,7 +29892,7 @@
     },
     {
       "id": 422,
-      "description": "Lingüiça, porco, frita",
+      "description": "linguica_porco_frita",
       "category": "Carnes e derivados",
       "humidity_percents": 54.6093333333333,
       "energy_kcal": 279.543589166667,
@@ -29963,7 +29963,7 @@
     },
     {
       "id": 423,
-      "description": "Lingüiça, porco, grelhada",
+      "description": "linguica_porco_grelhada",
       "category": "Carnes e derivados",
       "humidity_percents": 50.4793333333333,
       "energy_kcal": 296.489609166667,
@@ -30034,7 +30034,7 @@
     },
     {
       "id": 424,
-      "description": "Mortadela",
+      "description": "mortadela",
       "category": "Carnes e derivados",
       "humidity_percents": 56.4393333333333,
       "energy_kcal": 268.819989016732,
@@ -30105,7 +30105,7 @@
     },
     {
       "id": 425,
-      "description": "Peru, congelado, assado",
+      "description": "peru_congelado_assado",
       "category": "Carnes e derivados",
       "humidity_percents": 65.323,
       "energy_kcal": 163.071397931377,
@@ -30176,7 +30176,7 @@
     },
     {
       "id": 426,
-      "description": "Peru, congelado, cru",
+      "description": "peru_congelado_cru",
       "category": "Carnes e derivados",
       "humidity_percents": 78.1766666666667,
       "energy_kcal": 93.7224338261286,
@@ -30247,7 +30247,7 @@
     },
     {
       "id": 427,
-      "description": "Porco, bisteca, crua",
+      "description": "porco_bisteca_crua",
       "category": "Carnes e derivados",
       "humidity_percents": 67.7033333333333,
       "energy_kcal": 164.115336592992,
@@ -30318,7 +30318,7 @@
     },
     {
       "id": 428,
-      "description": "Porco, bisteca, frita",
+      "description": "porco_bisteca_frita",
       "category": "Carnes e derivados",
       "humidity_percents": 47.3266666666667,
       "energy_kcal": 311.169045334856,
@@ -30389,7 +30389,7 @@
     },
     {
       "id": 429,
-      "description": "Porco, bisteca, grelhada",
+      "description": "porco_bisteca_grelhada",
       "category": "Carnes e derivados",
       "humidity_percents": 51.8436666666667,
       "energy_kcal": 280.084034902771,
@@ -30460,7 +30460,7 @@
     },
     {
       "id": 430,
-      "description": "Porco, costela, assada",
+      "description": "porco_costela_assada",
       "category": "Carnes e derivados",
       "humidity_percents": 36.92,
       "energy_kcal": 402.168447450837,
@@ -30531,7 +30531,7 @@
     },
     {
       "id": 431,
-      "description": "Porco, costela, crua",
+      "description": "porco_costela_crua",
       "category": "Carnes e derivados",
       "humidity_percents": 61.21,
       "energy_kcal": 255.606342061361,
@@ -30602,7 +30602,7 @@
     },
     {
       "id": 432,
-      "description": "Porco, lombo, assado",
+      "description": "porco_lombo_assado",
       "category": "Carnes e derivados",
       "humidity_percents": 56.5606666666667,
       "energy_kcal": 210.234665579637,
@@ -30673,7 +30673,7 @@
     },
     {
       "id": 433,
-      "description": "Porco, lombo, cru",
+      "description": "porco_lombo_cru",
       "category": "Carnes e derivados",
       "humidity_percents": 67.7333333333333,
       "energy_kcal": 175.625195250114,
@@ -30744,7 +30744,7 @@
     },
     {
       "id": 434,
-      "description": "Porco, orelha, salgada, crua",
+      "description": "porco_orelha_salgada_crua",
       "category": "Carnes e derivados",
       "humidity_percents": 59.6666666666667,
       "energy_kcal": 258.491758333333,
@@ -30815,7 +30815,7 @@
     },
     {
       "id": 435,
-      "description": "Porco, pernil, assado",
+      "description": "porco_pernil_assado",
       "category": "Carnes e derivados",
       "humidity_percents": 49.2563333333333,
       "energy_kcal": 262.259606666667,
@@ -30886,7 +30886,7 @@
     },
     {
       "id": 436,
-      "description": "Porco, pernil, cru",
+      "description": "porco_pernil_cru",
       "category": "Carnes e derivados",
       "humidity_percents": 67.08,
       "energy_kcal": 186.05575,
@@ -30957,7 +30957,7 @@
     },
     {
       "id": 437,
-      "description": "Porco, rabo, salgado, cru",
+      "description": "porco_rabo_salgado_cru",
       "category": "Carnes e derivados",
       "humidity_percents": 43.7896666666667,
       "energy_kcal": 377.4152575,
@@ -31028,7 +31028,7 @@
     },
     {
       "id": 438,
-      "description": "Presunto, com capa de gordura",
+      "description": "presunto_com_capa_de_gordura",
       "category": "Carnes e derivados",
       "humidity_percents": 73.9463333333333,
       "energy_kcal": 127.849212665637,
@@ -31099,7 +31099,7 @@
     },
     {
       "id": 439,
-      "description": "Presunto, sem capa de gordura",
+      "description": "presunto_sem_capa_de_gordura",
       "category": "Carnes e derivados",
       "humidity_percents": 77.181,
       "energy_kcal": 93.7432807208697,
@@ -31170,7 +31170,7 @@
     },
     {
       "id": 440,
-      "description": "Quibe, assado",
+      "description": "quibe_assado",
       "category": "Carnes e derivados",
       "humidity_percents": 69.018,
       "energy_kcal": 136.228876141588,
@@ -31241,7 +31241,7 @@
     },
     {
       "id": 441,
-      "description": "Quibe, cru",
+      "description": "quibe_cru",
       "category": "Carnes e derivados",
       "humidity_percents": 74.509,
       "energy_kcal": 109.490669294755,
@@ -31312,7 +31312,7 @@
     },
     {
       "id": 442,
-      "description": "Quibe, frito",
+      "description": "quibe_frito",
       "category": "Carnes e derivados",
       "humidity_percents": 53.9636666666667,
       "energy_kcal": 253.83130886964,
@@ -31383,7 +31383,7 @@
     },
     {
       "id": 443,
-      "description": "Salame",
+      "description": "salame",
       "category": "Carnes e derivados",
       "humidity_percents": 34.7033333333333,
       "energy_kcal": 397.842506534934,
@@ -31454,7 +31454,7 @@
     },
     {
       "id": 444,
-      "description": "Toucinho, cru",
+      "description": "toucinho_cru",
       "category": "Carnes e derivados",
       "humidity_percents": 27.6066666666667,
       "energy_kcal": 592.531175,
@@ -31525,7 +31525,7 @@
     },
     {
       "id": 445,
-      "description": "Toucinho, frito",
+      "description": "toucinho_frito",
       "category": "Carnes e derivados",
       "humidity_percents": 6.32533333333333,
       "energy_kcal": 696.564006666667,
@@ -31596,7 +31596,7 @@
     },
     {
       "id": 446,
-      "description": "Bebida láctea, pêssego",
+      "description": "bebida_lactea_pessego",
       "category": "Leite e derivados",
       "humidity_percents": 87.6933333333333,
       "energy_kcal": 55.1648333333333,
@@ -31667,7 +31667,7 @@
     },
     {
       "id": 447,
-      "description": "Creme de Leite",
+      "description": "creme_de_leite",
       "category": "Leite e derivados",
       "humidity_percents": 70.8926666666667,
       "energy_kcal": 221.483541275133,
@@ -31738,7 +31738,7 @@
     },
     {
       "id": 448,
-      "description": "Iogurte, natural",
+      "description": "iogurte_natural",
       "category": "Leite e derivados",
       "humidity_percents": 90.04,
       "energy_kcal": 51.4895333333333,
@@ -31809,7 +31809,7 @@
     },
     {
       "id": 449,
-      "description": "Iogurte, natural, desnatado",
+      "description": "iogurte_natural_desnatado",
       "category": "Leite e derivados",
       "humidity_percents": 89.2163333333333,
       "energy_kcal": 41.4927112815583,
@@ -31880,7 +31880,7 @@
     },
     {
       "id": 450,
-      "description": "Iogurte, sabor abacaxi",
+      "description": "iogurte_sabor_abacaxi",
       "category": "Leite e derivados",
       "humidity_percents": "*",
       "energy_kcal": "*",
@@ -31951,7 +31951,7 @@
     },
     {
       "id": 451,
-      "description": "Iogurte, sabor morango",
+      "description": "iogurte_sabor_morango",
       "category": "Leite e derivados",
       "humidity_percents": 84.6333333333333,
       "energy_kcal": 69.5656,
@@ -32022,7 +32022,7 @@
     },
     {
       "id": 452,
-      "description": "Iogurte, sabor pêssego",
+      "description": "iogurte_sabor_pessego",
       "category": "Leite e derivados",
       "humidity_percents": 85.0566666666667,
       "energy_kcal": 67.8494,
@@ -32093,7 +32093,7 @@
     },
     {
       "id": 453,
-      "description": "Leite, condensado",
+      "description": "leite_condensado",
       "category": "Leite e derivados",
       "humidity_percents": 26.96,
       "energy_kcal": 312.5726,
@@ -32164,7 +32164,7 @@
     },
     {
       "id": 454,
-      "description": "Leite, de cabra",
+      "description": "leite_de_cabra",
       "category": "Leite e derivados",
       "humidity_percents": 87.0706666666667,
       "energy_kcal": 66.4157418865433,
@@ -32235,7 +32235,7 @@
     },
     {
       "id": 455,
-      "description": "Leite, de vaca, achocolatado",
+      "description": "leite_de_vaca_achocolatado",
       "category": "Leite e derivados",
       "humidity_percents": 80.8936666666667,
       "energy_kcal": 82.8209962719936,
@@ -32306,7 +32306,7 @@
     },
     {
       "id": 456,
-      "description": "Leite, de vaca, desnatado, pó",
+      "description": "leite_de_vaca_desnatado_po",
       "category": "Leite e derivados",
       "humidity_percents": 3.1,
       "energy_kcal": 361.608,
@@ -32377,7 +32377,7 @@
     },
     {
       "id": 457,
-      "description": "Leite, de vaca, desnatado, UHT",
+      "description": "leite_de_vaca_desnatado_UHT",
       "category": "Leite e derivados",
       "humidity_percents": "*",
       "energy_kcal": "*",
@@ -32448,7 +32448,7 @@
     },
     {
       "id": 458,
-      "description": "Leite, de vaca, integral",
+      "description": "leite_de_vaca_integral",
       "category": "Leite e derivados",
       "humidity_percents": "*",
       "energy_kcal": "*",
@@ -32519,7 +32519,7 @@
     },
     {
       "id": 459,
-      "description": "Leite, de vaca, integral, pó",
+      "description": "leite_de_vaca_integral_po",
       "category": "Leite e derivados",
       "humidity_percents": 2.7,
       "energy_kcal": 496.6503,
@@ -32590,7 +32590,7 @@
     },
     {
       "id": 460,
-      "description": "Leite, fermentado",
+      "description": "leite_fermentado",
       "category": "Leite e derivados",
       "humidity_percents": 81.8793333333333,
       "energy_kcal": 69.621474,
@@ -32661,7 +32661,7 @@
     },
     {
       "id": 461,
-      "description": "Queijo, minas, frescal",
+      "description": "queijo_minas_frescal",
       "category": "Leite e derivados",
       "humidity_percents": 56.1246666666667,
       "energy_kcal": 264.273128,
@@ -32732,7 +32732,7 @@
     },
     {
       "id": 462,
-      "description": "Queijo, minas, meia cura",
+      "description": "queijo_minas_meia_cura",
       "category": "Leite e derivados",
       "humidity_percents": 47.1183333333333,
       "energy_kcal": 320.72181773326,
@@ -32803,7 +32803,7 @@
     },
     {
       "id": 463,
-      "description": "Queijo, mozarela",
+      "description": "queijo_mozarela",
       "category": "Leite e derivados",
       "humidity_percents": 45.3383333333333,
       "energy_kcal": 329.870718420887,
@@ -32874,7 +32874,7 @@
     },
     {
       "id": 464,
-      "description": "Queijo, parmesão",
+      "description": "queijo_parmesao",
       "category": "Leite e derivados",
       "humidity_percents": 21.2466666666667,
       "energy_kcal": 452.963755333333,
@@ -32945,7 +32945,7 @@
     },
     {
       "id": 465,
-      "description": "Queijo, pasteurizado",
+      "description": "queijo_pasteurizado",
       "category": "Leite e derivados",
       "humidity_percents": 54.4213333333333,
       "energy_kcal": 303.079803333333,
@@ -33016,7 +33016,7 @@
     },
     {
       "id": 466,
-      "description": "Queijo, petit suisse, morango",
+      "description": "queijo_petit_suisse_morango",
       "category": "Leite e derivados",
       "humidity_percents": 72.215,
       "energy_kcal": 121.105954,
@@ -33087,7 +33087,7 @@
     },
     {
       "id": 467,
-      "description": "Queijo, prato",
+      "description": "queijo_prato",
       "category": "Leite e derivados",
       "humidity_percents": 42.4443333333333,
       "energy_kcal": 359.880462405055,
@@ -33158,7 +33158,7 @@
     },
     {
       "id": 468,
-      "description": "Maria mole",
+      "description": "maria_mole",
       "category": "Leite e derivados",
       "humidity_percents": 62.4663333333333,
       "energy_kcal": 256.578148666667,
@@ -33229,7 +33229,7 @@
     },
     {
       "id": 469,
-      "description": "Queijo, ricota",
+      "description": "queijo_ricota",
       "category": "Leite e derivados",
       "humidity_percents": 73.5706666666667,
       "energy_kcal": 139.73178,
@@ -33300,7 +33300,7 @@
     },
     {
       "id": 470,
-      "description": "Bebida isotônica, sabores variados",
+      "description": "bebida_isotonica_sabores_variados",
       "category": "Bebidas (alcoólicas e não alcoólicas)",
       "humidity_percents": 93.5066666666667,
       "energy_kcal": 25.6133333333333,
@@ -33371,7 +33371,7 @@
     },
     {
       "id": 471,
-      "description": "Café, infusão 10%",
+      "description": "cafe_infusao_10%",
       "category": "Bebidas (alcoólicas e não alcoólicas)",
       "humidity_percents": 97.372,
       "energy_kcal": 9.07086859961352,
@@ -33442,7 +33442,7 @@
     },
     {
       "id": 472,
-      "description": "Cana, aguardente 1",
+      "description": "cana_aguardente_1",
       "category": "Bebidas (alcoólicas e não alcoólicas)",
       "humidity_percents": "",
       "energy_kcal": 215.6616,
@@ -33513,7 +33513,7 @@
     },
     {
       "id": 473,
-      "description": "Cana, caldo de",
+      "description": "cana_caldo_de",
       "category": "Bebidas (alcoólicas e não alcoólicas)",
       "humidity_percents": 81.7276666666667,
       "energy_kcal": 65.3435982689857,
@@ -33584,7 +33584,7 @@
     },
     {
       "id": 474,
-      "description": "Cerveja, pilsen 2",
+      "description": "cerveja_pilsen_2",
       "category": "Bebidas (alcoólicas e não alcoólicas)",
       "humidity_percents": 92.38,
       "energy_kcal": 40.7201885506287,
@@ -33655,7 +33655,7 @@
     },
     {
       "id": 475,
-      "description": "Chá, erva-doce, infusão 5%",
+      "description": "cha_erva-doce_infusao_5%",
       "category": "Bebidas (alcoólicas e não alcoólicas)",
       "humidity_percents": 99.6086666666667,
       "energy_kcal": 1.39705997387564,
@@ -33726,7 +33726,7 @@
     },
     {
       "id": 476,
-      "description": "Chá, mate, infusão 5%",
+      "description": "cha_mate_infusao_5%",
       "category": "Bebidas (alcoólicas e não alcoólicas)",
       "humidity_percents": 99.305,
       "energy_kcal": 2.73074995112414,
@@ -33797,7 +33797,7 @@
     },
     {
       "id": 477,
-      "description": "Chá, preto, infusão 5%",
+      "description": "cha_preto_infusao_5%",
       "category": "Bebidas (alcoólicas e não alcoólicas)",
       "humidity_percents": 99.3703333333333,
       "energy_kcal": 2.24790995796521,
@@ -33868,7 +33868,7 @@
     },
     {
       "id": 478,
-      "description": "Coco, água de",
+      "description": "coco_agua_de",
       "category": "Bebidas (alcoólicas e não alcoólicas)",
       "humidity_percents": 94.252,
       "energy_kcal": 21.5085942405065,
@@ -33939,7 +33939,7 @@
     },
     {
       "id": 479,
-      "description": "Refrigerante, tipo água tônica",
+      "description": "refrigerante_tipo_agua_tonica",
       "category": "Bebidas (alcoólicas e não alcoólicas)",
       "humidity_percents": 92.0066666666667,
       "energy_kcal": 30.7794,
@@ -34010,7 +34010,7 @@
     },
     {
       "id": 480,
-      "description": "Refrigerante, tipo cola",
+      "description": "refrigerante_tipo_cola",
       "category": "Bebidas (alcoólicas e não alcoólicas)",
       "humidity_percents": 91.2766666666667,
       "energy_kcal": 33.5142,
@@ -34081,7 +34081,7 @@
     },
     {
       "id": 481,
-      "description": "Refrigerante, tipo guaraná",
+      "description": "refrigerante_tipo_guarana",
       "category": "Bebidas (alcoólicas e não alcoólicas)",
       "humidity_percents": 89.9566666666667,
       "energy_kcal": 38.7,
@@ -34152,7 +34152,7 @@
     },
     {
       "id": 482,
-      "description": "Refrigerante, tipo laranja",
+      "description": "refrigerante_tipo_laranja",
       "category": "Bebidas (alcoólicas e não alcoólicas)",
       "humidity_percents": 88.1733333333333,
       "energy_kcal": 45.6273,
@@ -34223,7 +34223,7 @@
     },
     {
       "id": 483,
-      "description": "Refrigerante, tipo limão",
+      "description": "refrigerante_tipo_limao",
       "category": "Bebidas (alcoólicas e não alcoólicas)",
       "humidity_percents": 89.69,
       "energy_kcal": 39.7191,
@@ -34294,7 +34294,7 @@
     },
     {
       "id": 484,
-      "description": "Omelete, de queijo",
+      "description": "omelete_de_queijo",
       "category": "Ovos e derivados",
       "humidity_percents": 60.4916666666667,
       "energy_kcal": 268.006772182425,
@@ -34365,7 +34365,7 @@
     },
     {
       "id": 485,
-      "description": "Ovo, de codorna, inteiro, cru",
+      "description": "ovo_de_codorna_inteiro_cru",
       "category": "Ovos e derivados",
       "humidity_percents": 71.67,
       "energy_kcal": 176.8939,
@@ -34436,7 +34436,7 @@
     },
     {
       "id": 486,
-      "description": "Ovo, de galinha, clara, cozida/10minutos",
+      "description": "ovo_de_galinha_clara_cozida_10minutos",
       "category": "Ovos e derivados",
       "humidity_percents": 85.2276666666667,
       "energy_kcal": 59.4356966666667,
@@ -34507,7 +34507,7 @@
     },
     {
       "id": 487,
-      "description": "Ovo, de galinha, gema, cozida/10minutos",
+      "description": "ovo_de_galinha_gema_cozida_10minutos",
       "category": "Ovos e derivados",
       "humidity_percents": 50.0226666666667,
       "energy_kcal": 352.67334,
@@ -34578,7 +34578,7 @@
     },
     {
       "id": 488,
-      "description": "Ovo, de galinha, inteiro, cozido/10minutos",
+      "description": "ovo_de_galinha_inteiro_cozido_10minutos",
       "category": "Ovos e derivados",
       "humidity_percents": 75.7656666666667,
       "energy_kcal": 145.70017,
@@ -34649,7 +34649,7 @@
     },
     {
       "id": 489,
-      "description": "Ovo, de galinha, inteiro, cru",
+      "description": "ovo_de_galinha_inteiro_cru",
       "category": "Ovos e derivados",
       "humidity_percents": 75.6,
       "energy_kcal": 143.111733333333,
@@ -34720,7 +34720,7 @@
     },
     {
       "id": 490,
-      "description": "Ovo, de galinha, inteiro, frito",
+      "description": "ovo_de_galinha_inteiro_frito",
       "category": "Ovos e derivados",
       "humidity_percents": 63.4973333333333,
       "energy_kcal": 240.187224009117,
@@ -34791,7 +34791,7 @@
     },
     {
       "id": 491,
-      "description": "Achocolatado, pó",
+      "description": "achocolatado_po",
       "category": "Produtos açucarados",
       "humidity_percents": 1.10333333333333,
       "energy_kcal": 401.02,
@@ -34862,7 +34862,7 @@
     },
     {
       "id": 492,
-      "description": "Açúcar, cristal",
+      "description": "acucar_cristal",
       "category": "Produtos açucarados",
       "humidity_percents": 0.05,
       "energy_kcal": 386.845724,
@@ -34933,7 +34933,7 @@
     },
     {
       "id": 493,
-      "description": "Açúcar, mascavo",
+      "description": "acucar_mascavo",
       "category": "Produtos açucarados",
       "humidity_percents": 3.324,
       "energy_kcal": 368.554822524389,
@@ -35004,7 +35004,7 @@
     },
     {
       "id": 494,
-      "description": "Açúcar, refinado",
+      "description": "acucar_refinado",
       "category": "Produtos açucarados",
       "humidity_percents": 0.12,
       "energy_kcal": 386.574824,
@@ -35075,7 +35075,7 @@
     },
     {
       "id": 495,
-      "description": "Chocolate, ao leite",
+      "description": "chocolate_ao_leite",
       "category": "Produtos açucarados",
       "humidity_percents": 1.25666666666667,
       "energy_kcal": 539.586666666667,
@@ -35146,7 +35146,7 @@
     },
     {
       "id": 496,
-      "description": "Chocolate, ao leite, com castanha do Pará",
+      "description": "chocolate_ao_leite_com_castanha_do_para",
       "category": "Produtos açucarados",
       "humidity_percents": 1.21433333333333,
       "energy_kcal": 558.876333333333,
@@ -35217,7 +35217,7 @@
     },
     {
       "id": 497,
-      "description": "Chocolate, ao leite, dietético",
+      "description": "chocolate_ao_leite_dietetico",
       "category": "Produtos açucarados",
       "humidity_percents": 1.732,
       "energy_kcal": 556.824333333333,
@@ -35288,7 +35288,7 @@
     },
     {
       "id": 498,
-      "description": "Chocolate, meio amargo",
+      "description": "chocolate_meio_amargo",
       "category": "Produtos açucarados",
       "humidity_percents": 1.02166666666667,
       "energy_kcal": 474.917769973274,
@@ -35359,7 +35359,7 @@
     },
     {
       "id": 499,
-      "description": "Cocada branca",
+      "description": "cocada_branca",
       "category": "Produtos açucarados",
       "humidity_percents": 3.42366666666667,
       "energy_kcal": 448.84545242331,
@@ -35430,7 +35430,7 @@
     },
     {
       "id": 500,
-      "description": "Doce, de abóbora, cremoso",
+      "description": "doce_de_abobora_cremoso",
       "category": "Produtos açucarados",
       "humidity_percents": 43.88,
       "energy_kcal": 198.936063049634,
@@ -35501,7 +35501,7 @@
     },
     {
       "id": 501,
-      "description": "Doce, de leite, cremoso",
+      "description": "doce_de_leite_cremoso",
       "category": "Produtos açucarados",
       "humidity_percents": 27.5,
       "energy_kcal": 306.310130231059,
@@ -35572,7 +35572,7 @@
     },
     {
       "id": 502,
-      "description": "Geléia, mocotó, natural",
+      "description": "geleia_mocoto_natural",
       "category": "Produtos açucarados",
       "humidity_percents": 73.48,
       "energy_kcal": 106.086666666667,
@@ -35643,7 +35643,7 @@
     },
     {
       "id": 503,
-      "description": "Glicose de milho",
+      "description": "glicose_de_milho",
       "category": "Produtos açucarados",
       "humidity_percents": 20.4133333333333,
       "energy_kcal": 292.118405299187,
@@ -35714,7 +35714,7 @@
     },
     {
       "id": 504,
-      "description": "Maria mole",
+      "description": "maria_mole",
       "category": "Produtos açucarados",
       "humidity_percents": 21.5716666666667,
       "energy_kcal": 301.235887537,
@@ -35785,7 +35785,7 @@
     },
     {
       "id": 505,
-      "description": "Maria mole, coco queimado",
+      "description": "maria_mole_coco_queimado",
       "category": "Produtos açucarados",
       "humidity_percents": 20.7316666666667,
       "energy_kcal": 306.631896997019,
@@ -35856,7 +35856,7 @@
     },
     {
       "id": 506,
-      "description": "Marmelada",
+      "description": "marmelada",
       "category": "Produtos açucarados",
       "humidity_percents": 28.4986666666667,
       "energy_kcal": 257.241473193804,
@@ -35927,7 +35927,7 @@
     },
     {
       "id": 507,
-      "description": "Mel, de abelha",
+      "description": "mel_de_abelha",
       "category": "Produtos açucarados",
       "humidity_percents": 15.8233333333333,
       "energy_kcal": 309.242666666667,
@@ -35998,7 +35998,7 @@
     },
     {
       "id": 508,
-      "description": "Melado",
+      "description": "melado",
       "category": "Produtos açucarados",
       "humidity_percents": 22.0866666666667,
       "energy_kcal": 296.506491231918,
@@ -36069,7 +36069,7 @@
     },
     {
       "id": 509,
-      "description": "Quindim",
+      "description": "quindim",
       "category": "Produtos açucarados",
       "humidity_percents": 23.93,
       "energy_kcal": 411.348721570849,
@@ -36140,7 +36140,7 @@
     },
     {
       "id": 510,
-      "description": "Rapadura",
+      "description": "rapadura",
       "category": "Produtos açucarados",
       "humidity_percents": 7.09533333333333,
       "energy_kcal": 351.958122101545,
@@ -36211,7 +36211,7 @@
     },
     {
       "id": 511,
-      "description": "Café, pó, torrado",
+      "description": "cafe_po_torrado",
       "category": "Miscelâneas",
       "humidity_percents": 2.93,
       "energy_kcal": 418.618666666667,
@@ -36282,7 +36282,7 @@
     },
     {
       "id": 512,
-      "description": "Capuccino, pó",
+      "description": "capuccino_po",
       "category": "Miscelâneas",
       "humidity_percents": 2.60333333333333,
       "energy_kcal": 417.406666666667,
@@ -36353,7 +36353,7 @@
     },
     {
       "id": 513,
-      "description": "Fermento em pó, químico",
+      "description": "fermento_em_po_quimico",
       "category": "Miscelâneas",
       "humidity_percents": 7.07666666666667,
       "energy_kcal": 89.7220666511218,
@@ -36424,7 +36424,7 @@
     },
     {
       "id": 514,
-      "description": "Fermento, biológico, levedura, tablete",
+      "description": "fermento_biologico_levedura_tablete",
       "category": "Miscelâneas",
       "humidity_percents": 71.901,
       "energy_kcal": 89.7948670305889,
@@ -36495,7 +36495,7 @@
     },
     {
       "id": 515,
-      "description": "Gelatina, sabores variados, pó",
+      "description": "gelatina_sabores_variados_po",
       "category": "Miscelâneas",
       "humidity_percents": 1.24333333333333,
       "energy_kcal": 380.2229,
@@ -36566,7 +36566,7 @@
     },
     {
       "id": 516,
-      "description": "Sal, dietético",
+      "description": "sal_dietetico",
       "category": "Miscelâneas",
       "humidity_percents": 0.596666666666667,
       "energy_kcal": "NA",
@@ -36637,7 +36637,7 @@
     },
     {
       "id": 517,
-      "description": "Sal, grosso",
+      "description": "sal_grosso",
       "category": "Miscelâneas",
       "humidity_percents": 0.413333333333333,
       "energy_kcal": "NA",
@@ -36708,7 +36708,7 @@
     },
     {
       "id": 518,
-      "description": "Shoyu",
+      "description": "shoyu",
       "category": "Miscelâneas",
       "humidity_percents": 70.6266666666667,
       "energy_kcal": 60.9277498753866,
@@ -36779,7 +36779,7 @@
     },
     {
       "id": 519,
-      "description": "Tempero a base de sal",
+      "description": "tempero_a_base_de_sal",
       "category": "Miscelâneas",
       "humidity_percents": 7.65,
       "energy_kcal": 21.33,
@@ -36850,7 +36850,7 @@
     },
     {
       "id": 520,
-      "description": "Azeitona, preta, conserva",
+      "description": "azeitona_preta_conserva",
       "category": "Outros alimentos industrializados",
       "humidity_percents": 68.464,
       "energy_kcal": 194.153847020984,
@@ -36921,7 +36921,7 @@
     },
     {
       "id": 521,
-      "description": "Azeitona, verde, conserva",
+      "description": "azeitona_verde_conserva",
       "category": "Outros alimentos industrializados",
       "humidity_percents": 76.259,
       "energy_kcal": 136.93643,
@@ -36992,7 +36992,7 @@
     },
     {
       "id": 522,
-      "description": "Chantilly, spray, com gordura vegetal",
+      "description": "chantilly_spray_com_gordura_vegetal",
       "category": "Outros alimentos industrializados",
       "humidity_percents": 55.1426666,
       "energy_kcal": 314.956000266667,
@@ -37063,7 +37063,7 @@
     },
     {
       "id": 523,
-      "description": "Leite, de coco",
+      "description": "leite_de_coco",
       "category": "Outros alimentos industrializados",
       "humidity_percents": 77.9836666666667,
       "energy_kcal": 166.160301615546,
@@ -37134,7 +37134,7 @@
     },
     {
       "id": 524,
-      "description": "Maionese, tradicional com ovos",
+      "description": "maionese_tradicional_com_ovos",
       "category": "Outros alimentos industrializados",
       "humidity_percents": 58.4236666666667,
       "energy_kcal": 302.152677687824,
@@ -37205,7 +37205,7 @@
     },
     {
       "id": 525,
-      "description": "Acarajé",
+      "description": "acaraje",
       "category": "Alimentos preparados",
       "humidity_percents": 50.464,
       "energy_kcal": 289.211666666667,
@@ -37276,7 +37276,7 @@
     },
     {
       "id": 526,
-      "description": "Arroz carreteiro",
+      "description": "arroz_carreteiro",
       "category": "Alimentos preparados",
       "humidity_percents": 68.0356666666667,
       "energy_kcal": 153.772,
@@ -37347,7 +37347,7 @@
     },
     {
       "id": 527,
-      "description": "Baião de dois, arroz e feijão-de-corda",
+      "description": "baiao_de_dois_arroz_e_feijao-de-corda",
       "category": "Alimentos preparados",
       "humidity_percents": 69.0513333333333,
       "energy_kcal": 135.681333333333,
@@ -37418,7 +37418,7 @@
     },
     {
       "id": 528,
-      "description": "Barreado",
+      "description": "barreado",
       "category": "Alimentos preparados",
       "humidity_percents": 71.1673333333333,
       "energy_kcal": 164.975234047413,
@@ -37489,7 +37489,7 @@
     },
     {
       "id": 529,
-      "description": "Bife à cavalo, com contra filé",
+      "description": "bife_a_cavalo_com_contra_file",
       "category": "Alimentos preparados",
       "humidity_percents": 54.212,
       "energy_kcal": 291.229509244959,
@@ -37560,7 +37560,7 @@
     },
     {
       "id": 530,
-      "description": "Bolinho de arroz",
+      "description": "bolinho_de_arroz",
       "category": "Alimentos preparados",
       "humidity_percents": 41.5,
       "energy_kcal": 273.514333333333,
@@ -37631,7 +37631,7 @@
     },
     {
       "id": 531,
-      "description": "Camarão à baiana",
+      "description": "camarao_a_baiana",
       "category": "Alimentos preparados",
       "humidity_percents": 81.9893333333333,
       "energy_kcal": 100.783043004036,
@@ -37702,7 +37702,7 @@
     },
     {
       "id": 532,
-      "description": "Charuto, de repolho",
+      "description": "charuto_de_repolho",
       "category": "Alimentos preparados",
       "humidity_percents": 81.5486666666667,
       "energy_kcal": 78.2347292222182,
@@ -37773,7 +37773,7 @@
     },
     {
       "id": 533,
-      "description": "Cuscuz, de milho, cozido com sal",
+      "description": "cuscuz_de_milho_cozido_com_sal",
       "category": "Alimentos preparados",
       "humidity_percents": 71.137,
       "energy_kcal": 113.459481666667,
@@ -37844,7 +37844,7 @@
     },
     {
       "id": 534,
-      "description": "Cuscuz, paulista",
+      "description": "cuscuz_paulista",
       "category": "Alimentos preparados",
       "humidity_percents": 68.9366666666667,
       "energy_kcal": 142.123,
@@ -37915,7 +37915,7 @@
     },
     {
       "id": 535,
-      "description": "Cuxá, molho",
+      "description": "cuxa_molho",
       "category": "Alimentos preparados",
       "humidity_percents": 80.994,
       "energy_kcal": 80.0916156365077,
@@ -37986,7 +37986,7 @@
     },
     {
       "id": 536,
-      "description": "Dobradinha",
+      "description": "dobradinha",
       "category": "Alimentos preparados",
       "humidity_percents": 75.267,
       "energy_kcal": 124.500200833333,
@@ -38057,7 +38057,7 @@
     },
     {
       "id": 537,
-      "description": "Estrogonofe de carne",
+      "description": "estrogonofe_de_carne",
       "category": "Alimentos preparados",
       "humidity_percents": 70.1283333333333,
       "energy_kcal": 173.141364318013,
@@ -38128,7 +38128,7 @@
     },
     {
       "id": 538,
-      "description": "Estrogonofe de frango",
+      "description": "estrogonofe_de_frango",
       "category": "Alimentos preparados",
       "humidity_percents": 70.8923333333333,
       "energy_kcal": 156.806103013237,
@@ -38199,7 +38199,7 @@
     },
     {
       "id": 539,
-      "description": "Feijão tropeiro mineiro",
+      "description": "feijao_tropeiro_mineiro",
       "category": "Alimentos preparados",
       "humidity_percents": 61.6676666666667,
       "energy_kcal": 151.561856830955,
@@ -38270,7 +38270,7 @@
     },
     {
       "id": 540,
-      "description": "Feijoada",
+      "description": "feijoada",
       "category": "Alimentos preparados",
       "humidity_percents": 71.8013333333333,
       "energy_kcal": 116.933457311034,
@@ -38341,7 +38341,7 @@
     },
     {
       "id": 541,
-      "description": "Frango, com açafrão",
+      "description": "frango_com_acafrao",
       "category": "Alimentos preparados",
       "humidity_percents": 79.5246666666667,
       "energy_kcal": 112.783768841227,
@@ -38412,7 +38412,7 @@
     },
     {
       "id": 542,
-      "description": "Macarrão, molho bolognesa",
+      "description": "macarrao_molho_bolognesa",
       "category": "Alimentos preparados",
       "humidity_percents": 71.4123333333333,
       "energy_kcal": 119.53177144556,
@@ -38483,7 +38483,7 @@
     },
     {
       "id": 543,
-      "description": "Maniçoba",
+      "description": "manicoba",
       "category": "Alimentos preparados",
       "humidity_percents": 76.3953333333333,
       "energy_kcal": 134.222893400987,
@@ -38554,7 +38554,7 @@
     },
     {
       "id": 544,
-      "description": "Quibebe",
+      "description": "quibebe",
       "category": "Alimentos preparados",
       "humidity_percents": 81.106,
       "energy_kcal": 86.349230299592,
@@ -38625,7 +38625,7 @@
     },
     {
       "id": 545,
-      "description": "Salada, de legumes, com maionese",
+      "description": "salada_de_legumes_com_maionese",
       "category": "Alimentos preparados",
       "humidity_percents": 82.0373333333333,
       "energy_kcal": 96.1035883984566,
@@ -38696,7 +38696,7 @@
     },
     {
       "id": 546,
-      "description": "Salada, de legumes, cozida no vapor",
+      "description": "salada_de_legumes_cozida_no_vapor",
       "category": "Alimentos preparados",
       "humidity_percents": 89.979,
       "energy_kcal": 35.4081042984724,
@@ -38767,7 +38767,7 @@
     },
     {
       "id": 547,
-      "description": "Salpicão, de frango",
+      "description": "salpicao_de_frango",
       "category": "Alimentos preparados",
       "humidity_percents": 72.5276666666667,
       "energy_kcal": 147.864596134027,
@@ -38838,7 +38838,7 @@
     },
     {
       "id": 548,
-      "description": "Sarapatel",
+      "description": "sarapatel",
       "category": "Alimentos preparados",
       "humidity_percents": 74.9513333333333,
       "energy_kcal": 122.981858212431,
@@ -38909,7 +38909,7 @@
     },
     {
       "id": 549,
-      "description": "Tabule",
+      "description": "tabule",
       "category": "Alimentos preparados",
       "humidity_percents": 85.77,
       "energy_kcal": 57.4534766884806,
@@ -38980,7 +38980,7 @@
     },
     {
       "id": 550,
-      "description": "Tacacá",
+      "description": "tacaca",
       "category": "Alimentos preparados",
       "humidity_percents": 85.193,
       "energy_kcal": 46.8891771512032,
@@ -39051,7 +39051,7 @@
     },
     {
       "id": 551,
-      "description": "Tapioca, com manteiga",
+      "description": "tapioca_com_manteiga",
       "category": "Alimentos preparados",
       "humidity_percents": 24.9023333333333,
       "energy_kcal": 347.826556257824,
@@ -39122,7 +39122,7 @@
     },
     {
       "id": 552,
-      "description": "Tucupi, com pimenta-de-cheiro",
+      "description": "tucupi_com_pimenta-de-cheiro",
       "category": "Alimentos preparados",
       "humidity_percents": 91.8843333333333,
       "energy_kcal": 27.1837984027266,
@@ -39193,7 +39193,7 @@
     },
     {
       "id": 553,
-      "description": "Vaca atolada",
+      "description": "vaca_atolada",
       "category": "Alimentos preparados",
       "humidity_percents": 74.9513333333333,
       "energy_kcal": 144.89697968479,
@@ -39264,7 +39264,7 @@
     },
     {
       "id": 554,
-      "description": "Vatapá",
+      "description": "vatapa",
       "category": "Alimentos preparados",
       "humidity_percents": 58.3623333333333,
       "energy_kcal": 254.893285724155,
@@ -39335,7 +39335,7 @@
     },
     {
       "id": 555,
-      "description": "Virado à paulista",
+      "description": "virado_a_paulista",
       "category": "Alimentos preparados",
       "humidity_percents": 48.5903333333333,
       "energy_kcal": 306.94678645132,
@@ -39406,7 +39406,7 @@
     },
     {
       "id": 556,
-      "description": "Yakisoba",
+      "description": "yakisoba",
       "category": "Alimentos preparados",
       "humidity_percents": 69.3766666666667,
       "energy_kcal": 112.802041253408,
@@ -39477,7 +39477,7 @@
     },
     {
       "id": 557,
-      "description": "Amendoim, grão, cru",
+      "description": "amendoim_grao_cru",
       "category": "Leguminosas e derivados",
       "humidity_percents": 6.427,
       "energy_kcal": 544.052655799433,
@@ -39548,7 +39548,7 @@
     },
     {
       "id": 558,
-      "description": "Amendoim, torrado, salgado",
+      "description": "amendoim_torrado_salgado",
       "category": "Leguminosas e derivados",
       "humidity_percents": 1.68666666666667,
       "energy_kcal": 605.781092917019,
@@ -39619,7 +39619,7 @@
     },
     {
       "id": 559,
-      "description": "Ervilha, em vagem",
+      "description": "ervilha_em_vagem",
       "category": "Leguminosas e derivados",
       "humidity_percents": 76.8413333333333,
       "energy_kcal": 88.0935819997785,
@@ -39690,7 +39690,7 @@
     },
     {
       "id": 560,
-      "description": "Ervilha, enlatada, drenada",
+      "description": "ervilha_enlatada_drenada",
       "category": "Leguminosas e derivados",
       "humidity_percents": 80.1433333333333,
       "energy_kcal": 73.8447043478261,
@@ -39761,7 +39761,7 @@
     },
     {
       "id": 561,
-      "description": "Feijão, carioca, cozido",
+      "description": "feijao_carioca_cozido",
       "category": "Leguminosas e derivados",
       "humidity_percents": 80.3506333333333,
       "energy_kcal": 76.4240856666667,
@@ -39832,7 +39832,7 @@
     },
     {
       "id": 562,
-      "description": "Feijão, carioca, cru",
+      "description": "feijao_carioca_cru",
       "category": "Leguminosas e derivados",
       "humidity_percents": 13.9966666666667,
       "energy_kcal": 329.026736231884,
@@ -39903,7 +39903,7 @@
     },
     {
       "id": 563,
-      "description": "Feijão, fradinho, cozido",
+      "description": "feijao_fradinho_cozido",
       "category": "Leguminosas e derivados",
       "humidity_percents": 80.0093333333333,
       "energy_kcal": 78.0088966666667,
@@ -39974,7 +39974,7 @@
     },
     {
       "id": 564,
-      "description": "Feijão, fradinho, cru",
+      "description": "feijao_fradinho_cru",
       "category": "Leguminosas e derivados",
       "humidity_percents": 12.6966666666667,
       "energy_kcal": 339.164766666667,
@@ -40045,7 +40045,7 @@
     },
     {
       "id": 565,
-      "description": "Feijão, jalo, cozido",
+      "description": "feijao_jalo_cozido",
       "category": "Leguminosas e derivados",
       "humidity_percents": 75.8423333333333,
       "energy_kcal": 92.73992,
@@ -40116,7 +40116,7 @@
     },
     {
       "id": 566,
-      "description": "Feijão, jalo, cru",
+      "description": "feijao_jalo_cru",
       "category": "Leguminosas e derivados",
       "humidity_percents": 13.5333333333333,
       "energy_kcal": 327.905266666667,
@@ -40187,7 +40187,7 @@
     },
     {
       "id": 567,
-      "description": "Feijão, preto, cozido",
+      "description": "feijao_preto_cozido",
       "category": "Leguminosas e derivados",
       "humidity_percents": 80.218,
       "energy_kcal": 77.0272666666667,
@@ -40258,7 +40258,7 @@
     },
     {
       "id": 568,
-      "description": "Feijão, preto, cru",
+      "description": "feijao_preto_cru",
       "category": "Leguminosas e derivados",
       "humidity_percents": 14.8766666666667,
       "energy_kcal": 323.565711594203,
@@ -40329,7 +40329,7 @@
     },
     {
       "id": 569,
-      "description": "Feijão, rajado, cozido",
+      "description": "feijao_rajado_cozido",
       "category": "Leguminosas e derivados",
       "humidity_percents": 77.8643333333333,
       "energy_kcal": 84.7018527334929,
@@ -40400,7 +40400,7 @@
     },
     {
       "id": 570,
-      "description": "Feijão, rajado, cru",
+      "description": "feijao_rajado_cru",
       "category": "Leguminosas e derivados",
       "humidity_percents": 14.9633333333333,
       "energy_kcal": 325.844411162734,
@@ -40471,7 +40471,7 @@
     },
     {
       "id": 571,
-      "description": "Feijão, rosinha, cozido",
+      "description": "feijao_rosinha_cozido",
       "category": "Leguminosas e derivados",
       "humidity_percents": 82.581,
       "energy_kcal": 67.8662287714283,
@@ -40542,7 +40542,7 @@
     },
     {
       "id": 572,
-      "description": "Feijão, rosinha, cru",
+      "description": "feijao_rosinha_cru",
       "category": "Leguminosas e derivados",
       "humidity_percents": 11.9533333333333,
       "energy_kcal": 336.961911127567,
@@ -40613,7 +40613,7 @@
     },
     {
       "id": 573,
-      "description": "Feijão, roxo, cozido",
+      "description": "feijao_roxo_cozido",
       "category": "Leguminosas e derivados",
       "humidity_percents": 79.986,
       "energy_kcal": 76.8933823179006,
@@ -40684,7 +40684,7 @@
     },
     {
       "id": 574,
-      "description": "Feijão, roxo, cru",
+      "description": "feijao_roxo_cru",
       "category": "Leguminosas e derivados",
       "humidity_percents": 12.6366666666667,
       "energy_kcal": 331.414977456729,
@@ -40755,7 +40755,7 @@
     },
     {
       "id": 575,
-      "description": "Grão-de-bico, cru",
+      "description": "grao-de-bico_cru",
       "category": "Leguminosas e derivados",
       "humidity_percents": 12.29,
       "energy_kcal": 354.7028765891,
@@ -40826,7 +40826,7 @@
     },
     {
       "id": 576,
-      "description": "Guandu, cru",
+      "description": "guandu_cru",
       "category": "Leguminosas e derivados",
       "humidity_percents": 11.449,
       "energy_kcal": 344.133651284993,
@@ -40897,7 +40897,7 @@
     },
     {
       "id": 577,
-      "description": "Lentilha, cozida",
+      "description": "lentilha_cozida",
       "category": "Leguminosas e derivados",
       "humidity_percents": 76.2506666666667,
       "energy_kcal": 92.6387662522992,
@@ -40968,7 +40968,7 @@
     },
     {
       "id": 578,
-      "description": "Lentilha, crua",
+      "description": "lentilha_crua",
       "category": "Leguminosas e derivados",
       "humidity_percents": 11.4666666666667,
       "energy_kcal": 339.141240203553,
@@ -41039,7 +41039,7 @@
     },
     {
       "id": 579,
-      "description": "Paçoca, amendoim",
+      "description": "pacoca_amendoim",
       "category": "Leguminosas e derivados",
       "humidity_percents": 1.801,
       "energy_kcal": 486.927086464524,
@@ -41110,7 +41110,7 @@
     },
     {
       "id": 580,
-      "description": "Pé-de-moleque, amendoim",
+      "description": "pe-de-moleque_amendoim",
       "category": "Leguminosas e derivados",
       "humidity_percents": 2.91,
       "energy_kcal": 503.190365839956,
@@ -41181,7 +41181,7 @@
     },
     {
       "id": 581,
-      "description": "Soja, farinha",
+      "description": "soja_farinha",
       "category": "Leguminosas e derivados",
       "humidity_percents": 5.75,
       "energy_kcal": 403.955845810399,
@@ -41252,7 +41252,7 @@
     },
     {
       "id": 582,
-      "description": "Soja, extrato solúvel, natural, fluido",
+      "description": "soja_extrato_soluvel_natural_fluido",
       "category": "Leguminosas e derivados",
       "humidity_percents": 91.284,
       "energy_kcal": 39.1048552753508,
@@ -41323,7 +41323,7 @@
     },
     {
       "id": 583,
-      "description": "Soja, extrato solúvel, pó",
+      "description": "soja_extrato_soluvel_po",
       "category": "Leguminosas e derivados",
       "humidity_percents": 4.46833333333333,
       "energy_kcal": 458.895729437868,
@@ -41394,7 +41394,7 @@
     },
     {
       "id": 584,
-      "description": "Soja, queijo (tofu)",
+      "description": "soja_queijo_tofu_",
       "category": "Leguminosas e derivados",
       "humidity_percents": 86.646,
       "energy_kcal": 64.4850940738902,
@@ -41465,7 +41465,7 @@
     },
     {
       "id": 585,
-      "description": "Tremoço, cru",
+      "description": "tremoco_cru",
       "category": "Leguminosas e derivados",
       "humidity_percents": 9.692,
       "energy_kcal": 381.278173960129,
@@ -41536,7 +41536,7 @@
     },
     {
       "id": 586,
-      "description": "Tremoço, em conserva",
+      "description": "tremoco_em_conserva",
       "category": "Leguminosas e derivados",
       "humidity_percents": 67.6843333333333,
       "energy_kcal": 120.642585344871,
@@ -41607,7 +41607,7 @@
     },
     {
       "id": 587,
-      "description": "Amêndoa, torrada, salgada",
+      "description": "amendoa_torrada_salgada",
       "category": "Nozes e sementes",
       "humidity_percents": 3.106,
       "energy_kcal": 580.746954556071,
@@ -41678,7 +41678,7 @@
     },
     {
       "id": 588,
-      "description": "Castanha-de-caju, torrada, salgada",
+      "description": "castanha-de-caju_torrada_salgada",
       "category": "Nozes e sementes",
       "humidity_percents": 3.464,
       "energy_kcal": 570.167626501619,
@@ -41749,7 +41749,7 @@
     },
     {
       "id": 589,
-      "description": "Castanha-do-Brasil, crua",
+      "description": "castanha-do-Brasil_crua",
       "category": "Nozes e sementes",
       "humidity_percents": 3.524,
       "energy_kcal": 642.963071681069,
@@ -41820,7 +41820,7 @@
     },
     {
       "id": 590,
-      "description": "Coco, cru",
+      "description": "coco_cru",
       "category": "Nozes e sementes",
       "humidity_percents": 42.9611666666667,
       "energy_kcal": 406.48735310781,
@@ -41891,7 +41891,7 @@
     },
     {
       "id": 591,
-      "description": "Coco, verde, cru",
+      "description": "coco_verde_cru",
       "category": "Nozes e sementes",
       "humidity_percents": "*",
       "energy_kcal": "*",
@@ -41962,7 +41962,7 @@
     },
     {
       "id": 592,
-      "description": "Farinha, de mesocarpo de babaçu, crua",
+      "description": "farinha_de_mesocarpo_de_babacu_crua",
       "category": "Nozes e sementes",
       "humidity_percents": 15.8233333333333,
       "energy_kcal": 328.771400244834,
@@ -42033,7 +42033,7 @@
     },
     {
       "id": 593,
-      "description": "Gergelim, semente",
+      "description": "gergelim_semente",
       "category": "Nozes e sementes",
       "humidity_percents": 3.85933333333333,
       "energy_kcal": 583.54671475455,
@@ -42104,7 +42104,7 @@
     },
     {
       "id": 594,
-      "description": "Linhaça, semente",
+      "description": "linhaca_semente",
       "category": "Nozes e sementes",
       "humidity_percents": 6.683,
       "energy_kcal": 495.096113843651,
@@ -42175,7 +42175,7 @@
     },
     {
       "id": 595,
-      "description": "Pinhão, cozido",
+      "description": "pinhao_cozido",
       "category": "Nozes e sementes",
       "humidity_percents": 50.5133333333333,
       "energy_kcal": 174.369902,
@@ -42246,7 +42246,7 @@
     },
     {
       "id": 596,
-      "description": "Pupunha, cozida",
+      "description": "pupunha_cozida",
       "category": "Nozes e sementes",
       "humidity_percents": 54.46,
       "energy_kcal": 218.533880876601,
@@ -42317,7 +42317,7 @@
     },
     {
       "id": 597,
-      "description": "Noz, crua",
+      "description": "noz_crua",
       "category": "Nozes e sementes",
       "humidity_percents": 6.24466666666667,
       "energy_kcal": 620.060019790567,
