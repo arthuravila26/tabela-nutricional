@@ -51,7 +51,7 @@ a mesma como variavel de ambiente, evitamos de utilizar a mesma de forma hard co
 Para executar a API, é preciso rodar o comando `python3 run.py` e com isso, o webserver será inicializado com
 a API.
 
-#TODO
+# TODO
 
 Por hora, apenas a funcionalidade de popular o banco de dados, consulta todos os ingredientes do JSON
 e consulta de apenas um ingrediente está implementado na API.
