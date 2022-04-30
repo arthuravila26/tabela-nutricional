@@ -76,7 +76,7 @@ class TabelaNutricional(Document):
 
     @queryset_manager
     def get_by_description(doc_cls, queryset, description):
-        nutriente = queryset(description=str(description)).first()
+        nutriente = queryset(description=str(description)).get()
         return nutriente
 
     def get_all(self):

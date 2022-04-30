@@ -12,17 +12,17 @@ class TabelaService:
             self.data = json.load(json_file)
 
     def get_all_table(self):
-        table_json = [self.serialize(table) for table in TabelaNutricional().get_all()]
+        table_json = [self.serialize_table(table) for table in TabelaNutricional().get_all()]
         return table_json
 
     def get_description(self, description):
         try:
             description = TabelaNutricional.get_by_description(description)
-            return self.serialize(description)
+            return self.serialize_table(description)
         except:
             raise DescriptionNotFound
 
-    def serialize(self, data):
+    def serialize_table(self, data):
         return {
             "id": str(data.id),
             "description": data.description,
