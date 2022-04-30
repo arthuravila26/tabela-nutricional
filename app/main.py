@@ -14,5 +14,10 @@ def get_todas_descrições():
 
 
 @app.get('/{description}', status_code=200)
-def get_description(description):
-    return JSONResponse(TabelaService().get_description(description))
+def get_description(description: str):
+    description = description.split('&')
+    data = {}
+    for i in description:
+        d = TabelaService().get_description(i)
+        data[i] = d
+    return JSONResponse(data)

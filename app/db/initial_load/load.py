@@ -27,6 +27,7 @@ class InitialLoad:
                                               humidity_percents=i['humidity_percents'],
                                               energy_kcal=i['humidity_percents'],
                                               energy_kj=i['energy_kj'],
+                                              protein_g=i['protein_g'],
                                               lipidius_g=i['lipidius_g'],
                                               cholesterol_mg=i['cholesterol_mg'],
                                               carbohydrate_g=i['carbohydrate_g'],
