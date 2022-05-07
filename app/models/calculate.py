@@ -1,11 +1,11 @@
+from typing import List
 from pydantic import BaseModel
 
 
-class Calculate(BaseModel):
-    quantity: float
+class Ingredientes(BaseModel):
+    ingrediente: str
+    quantidade: float
 
-    # description = description.split('&')
-    # data = {}
-    # for i in description:
-    #     d = TabelaService().get_description(i)
-    #     data[i] = d
+
+class Receita(BaseModel):
+    receita: List[Ingredientes] = []

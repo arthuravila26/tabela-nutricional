@@ -6,11 +6,6 @@ from app.utils.exceptions import DescriptionNotFound
 
 
 class TabelaService:
-    def __init__(self):
-        file = os.path.join('app/db/initial_load/lista-combinada.json')
-        with open(file) as json_file:
-            self.data = json.load(json_file)
-
     def get_all_table(self):
         table_json = [self.serialize_table(table) for table in TabelaNutricional().get_all()]
         return table_json

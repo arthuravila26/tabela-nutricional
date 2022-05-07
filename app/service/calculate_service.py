@@ -1,13 +1,11 @@
 import json
 import os
 
+from app.db.mongo_conn import MongoDB
+from app.models.calculate import Receita
 from app.models.tabela_nutricional import TabelaNutricional
 from app.utils.exceptions import DescriptionNotFound
 
 
-class TabelaService:
-    def serialize_calculate(self, data):
-        return {
-            "description": str(data.id),
-            "quantity": data.quantity,
-        }
+def calculate_from_recipe(receita: Receita):
+    return receita
