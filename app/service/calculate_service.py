@@ -8,4 +8,7 @@ from app.utils.exceptions import DescriptionNotFound
 
 
 def calculate_from_recipe(receita: Receita):
-    return receita
+    # ingrediente = TabelaNutricional.get_by_description(description)
+    receipe = receita.receita
+    for ingredient in receipe:
+        return f'{ingredient.ingrediente}: {ingredient.quantidade}'

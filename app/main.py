@@ -1,5 +1,4 @@
 import json
-
 from fastapi import Body, FastAPI
 from starlette.responses import JSONResponse
 
