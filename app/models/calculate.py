@@ -2,10 +2,10 @@ from typing import List
 from pydantic import BaseModel
 
 
-class Ingredientes(BaseModel):
-    ingrediente: str
-    quantidade: float
+class Ingredients(BaseModel):
+    ingredients: str
+    quantity: float
 
 
-class Receita(BaseModel):
-    receita: List[Ingredientes] = []
+class Recipe(BaseModel):
+    recipe: List[Ingredients]

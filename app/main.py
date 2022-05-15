@@ -4,7 +4,7 @@ from starlette.responses import JSONResponse
 
 from app.service.calculate_service import calculate_from_recipe
 from app.service.tabela_service import TabelaService
-from app.models.calculate import Receita
+from app.models.calculate import Recipe
 
 app = FastAPI()
 
@@ -25,5 +25,5 @@ def get_description(description: str):
 
 
 @app.post('/calculo', status_code=200)
-def calculate_table(receita: Receita):
-    return calculate_from_recipe(receita)
+def calculate_table(recipe: Recipe):
+    return calculate_from_recipe(recipe)
