@@ -13,7 +13,6 @@ def calculate_from_recipe(recipe: Recipe):
     diary_fiber = 25
     diary_sodium = 2400
 
-    total_energy = []
     total_carbohydrate = []
     total_protein = []
     total_total_fat = []
@@ -24,43 +23,45 @@ def calculate_from_recipe(recipe: Recipe):
     for ingredient in recipe_add:
         ingredients_search = TabelaService().get_description(ingredient.ingredients)
         quantity = ingredient.quantity
-        energy = quantity * ingredients_search.get('energy_kcal') / 100
-        total_energy.append(energy)
         if ingredients_search.get('carbohydrate_g') == "":
             carbohydrate = 0
         else:
-            carbohydrate = quantity * ingredients_search.get('carbohydrate_g') / 100
+            carbohydrate = quantity * round(ingredients_search.get('carbohydrate_g'), 1) / 100
         total_carbohydrate.append(carbohydrate)
         if ingredients_search.get('protein_g') == "":
             protein = 0
         else:
-            protein = quantity * ingredients_search.get('protein_g') / 100
+            protein = quantity * round(ingredients_search.get('protein_g'), 1) / 100
         total_protein.append(protein)
         if ingredients_search.get('lipidius_g') == "":
             total_fat = 0
         else:
-            total_fat = quantity * ingredients_search.get('lipidius_g') / 100
+            total_fat = quantity * round(ingredients_search.get('lipidius_g'), 1) / 100
         total_total_fat.append(total_fat)
         if ingredients_search.get('saturated_g') == "":
             saturated_fat = 0
         else:
-            saturated_fat = quantity * ingredients_search.get('saturated_g') / 100
+            saturated_fat = quantity * round(ingredients_search.get('saturated_g'), 1) / 100
         total_saturated_fat.append(saturated_fat)
         if ingredients_search.get('fiber_g') == "":
             fiber = 0
         else:
-            fiber = quantity * ingredients_search.get('fiber_g') / 100
+            fiber = quantity * round(ingredients_search.get('fiber_g'), 1) / 100
         total_fiber.append(fiber)
         if ingredients_search.get('sodium_mg') == "":
             sodium = 0
         else:
-            sodium = quantity * ingredients_search.get('sodium_mg') / 100
+            sodium = quantity * round(ingredients_search.get('sodium_mg'), 1) / 100
         total_sodium.append(sodium)
 
-    table_energy = sum(total_energy) / recipe.portion
+    """
+    Calculo de tabela geral com erro. O calculo correto é:
+    A soma total do produto / valor da gramagem total da receita * porção
+    """
     table_carbohydrate = sum(total_carbohydrate) / recipe.portion
     table_protein = sum(total_protein) / recipe.portion
     table_total_fat = sum(total_total_fat) / recipe.portion
+    table_energy = (table_carbohydrate * 4) + (table_protein * 4) + (table_total_fat * 9)
     table_saturated_fat = sum(total_saturated_fat) / recipe.portion
     table_fiber = sum(total_fiber) / recipe.portion
     table_sodium = sum(total_sodium) / recipe.portion
