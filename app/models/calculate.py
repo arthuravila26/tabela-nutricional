@@ -8,4 +8,5 @@ class Ingredients(BaseModel):
 
 
 class Recipe(BaseModel):
+    portion: int
     recipe: List[Ingredients]
