@@ -50,3 +50,30 @@ a mesma como variavel de ambiente, evitamos de utilizar a mesma de forma hard co
 
 Para executar a API, é preciso rodar o comando `python3 run.py` e com isso, o webserver será inicializado com
 a API.
+
+# JSON de entrada
+
+Para realizar o calculo da tabela nutricional, é necessário enviar um JSON para o endpoint calculo com os valores 
+que deseja calcular a receita, por exemplo:
+
+```
+{
+    "portion": 15,
+    "recipe": [
+    {
+        "ingredients": "amendoim_torrado_salgado",
+        "quantity": 200
+        },
+    {
+        "ingredients": "cacau_cru",
+        "quantity": 250
+        }
+    ]
+}
+```
+De forma explicativa, em `portion` deve ser passado a porção total da receita a ser calculada.
+Em seguida, temos uma lista de dicionarios. Dentro desta lista informamos os ingredientes e quantidades de cada um 
+separadamente para que o calculo possa ser efetuado.
+
+Após enviar um POST com os valores de receita e porção, o programa ira retornar um JSON com os calculos efetuados de
+do calculo total e consumo diario da receita.
