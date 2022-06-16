@@ -50,13 +50,3 @@ a mesma como variavel de ambiente, evitamos de utilizar a mesma de forma hard co
 
 Para executar a API, é preciso rodar o comando `python3 run.py` e com isso, o webserver será inicializado com
 a API.
-
-# TODO
-
-Por hora, apenas a funcionalidade de popular o banco de dados, consulta todos os ingredientes do JSON
-e consulta de apenas um ingrediente está implementado na API.
-
-Ainda é necessário alguns pontos, como:
-
-- Implementação do endpoint que receba mais de 1 ingrediente para realizar o calculo
-- Realização do calculo a partir dos ingredientes informados pelo usuário na implementação acima.
