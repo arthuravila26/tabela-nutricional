@@ -19,52 +19,50 @@ def calculate_from_recipe(recipe: Recipe):
     total_saturated_fat = []
     total_fiber = []
     total_sodium = []
+    total_quantity = []
 
     for ingredient in recipe_add:
         ingredients_search = TabelaService().get_description(ingredient.ingredients)
         quantity = ingredient.quantity
+        total_quantity.append(quantity)
         if ingredients_search.get('carbohydrate_g') == "":
             carbohydrate = 0
         else:
-            carbohydrate = quantity * round(ingredients_search.get('carbohydrate_g'), 1) / 100
+            carbohydrate = quantity * (float("{:.2f}".format(ingredients_search.get('carbohydrate_g') / 100)))
         total_carbohydrate.append(carbohydrate)
         if ingredients_search.get('protein_g') == "":
             protein = 0
         else:
-            protein = quantity * round(ingredients_search.get('protein_g'), 1) / 100
+            protein = quantity * (float("{:.2f}".format(ingredients_search.get('protein_g') / 100)))
         total_protein.append(protein)
         if ingredients_search.get('lipidius_g') == "":
             total_fat = 0
         else:
-            total_fat = quantity * round(ingredients_search.get('lipidius_g'), 1) / 100
+            total_fat = quantity * (float("{:.2f}".format(ingredients_search.get('lipidius_g') / 100)))
         total_total_fat.append(total_fat)
         if ingredients_search.get('saturated_g') == "":
             saturated_fat = 0
         else:
-            saturated_fat = quantity * round(ingredients_search.get('saturated_g'), 1) / 100
+            saturated_fat = quantity * (float("{:.2f}".format(ingredients_search.get('saturated_g') / 100)))
         total_saturated_fat.append(saturated_fat)
         if ingredients_search.get('fiber_g') == "":
             fiber = 0
         else:
-            fiber = quantity * round(ingredients_search.get('fiber_g'), 1) / 100
+            fiber = quantity * (float("{:.2f}".format(ingredients_search.get('fiber_g') / 100)))
         total_fiber.append(fiber)
         if ingredients_search.get('sodium_mg') == "":
             sodium = 0
         else:
-            sodium = quantity * round(ingredients_search.get('sodium_mg'), 1) / 100
+            sodium = quantity * (float("{:.2f}".format(ingredients_search.get('sodium_mg') / 100)))
         total_sodium.append(sodium)
 
-    """
-    Calculo de tabela geral com erro. O calculo correto é:
-    A soma total do produto / valor da gramagem total da receita * porção
-    """
-    table_carbohydrate = sum(total_carbohydrate) / recipe.portion
-    table_protein = sum(total_protein) / recipe.portion
-    table_total_fat = sum(total_total_fat) / recipe.portion
+    table_carbohydrate = sum(total_carbohydrate) / sum(total_quantity) * recipe.portion
+    table_protein = sum(total_protein) / sum(total_quantity) * recipe.portion
+    table_total_fat = sum(total_total_fat) / sum(total_quantity) * recipe.portion
     table_energy = (table_carbohydrate * 4) + (table_protein * 4) + (table_total_fat * 9)
-    table_saturated_fat = sum(total_saturated_fat) / recipe.portion
-    table_fiber = sum(total_fiber) / recipe.portion
-    table_sodium = sum(total_sodium) / recipe.portion
+    table_saturated_fat = sum(total_saturated_fat) / sum(total_quantity) * recipe.portion
+    table_fiber = sum(total_fiber) / sum(total_quantity) * recipe.portion
+    table_sodium = sum(total_sodium) / sum(total_quantity) * recipe.portion
 
     diary_value_energy = table_energy * 100 / diary_energy
     diary_value_carbohydrate = table_carbohydrate * 100 / diary_carbohydrate
@@ -76,21 +74,21 @@ def calculate_from_recipe(recipe: Recipe):
 
     return {
         "Quantity": {
-            "Energy": f'{table_energy}kcal',
-            "Carbohydrate": f'{table_carbohydrate}g',
-            "Protein": f'{table_protein}g',
-            "Total_fat": f'{table_total_fat}g',
-            "Saturated_fat": f'{table_saturated_fat}g',
-            "Fiber": f'{table_fiber}g',
-            "Sodium": f'{table_sodium}mg'
+            "Energy": f"{'{0:.2g}'.format(table_energy)}g",
+            "Carbohydrate": f"{'{0:.2g}'.format(table_carbohydrate)}g",
+            "Protein": f"{'{0:.2g}'.format(table_protein)}g",
+            "Total_fat": f"{'{0:.2g}'.format(table_total_fat)}g",
+            "Saturated_fat": f"{'{0:.2g}'.format(table_saturated_fat)}g",
+            "Fiber": f"{'{0:.2g}'.format(table_fiber)}g",
+            "Sodium": f"{'{0:.2g}'.format(table_sodium)}g",
         },
         "%VD": {
-            "Energy": f'{diary_value_energy}',
-            "Carbohydrate": f'{diary_value_carbohydrate}',
-            "Protein": f'{diary_value_protein}',
-            "Total_fat": f'{diary_value_total_fat}',
-            "Saturated_fat": f'{diary_value_saturated_fat}',
-            "Fiber": f'{diary_value_fiber}',
-            "Sodium": f'{diary_value_sodium}',
+            "Energy": f"{'{0:.2g}'.format(diary_value_energy)}g",
+            "Carbohydrate": f"{'{0:.2g}'.format(diary_value_carbohydrate)}g",
+            "Protein": f"{'{0:.2g}'.format(diary_value_protein)}g",
+            "Total_fat": f"{'{0:.2g}'.format(diary_value_total_fat)}g",
+            "Saturated_fat": f"{'{0:.2g}'.format(diary_value_saturated_fat)}g",
+            "Fiber": f"{'{0:.2g}'.format(diary_value_fiber)}g",
+            "Sodium": f"{'{0:.2g}'.format(diary_value_sodium)}g",
         }
     }
