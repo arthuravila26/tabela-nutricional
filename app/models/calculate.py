@@ -3,10 +3,19 @@ from pydantic import BaseModel
 
 
 class Ingredients(BaseModel):
-    ingredients: str
-    quantity: int
+    ingrediente: str
+    quantidade: int
 
 
 class Recipe(BaseModel):
-    portion: int
-    recipe: List[Ingredients]
+    porcao: int
+    receita: List[Ingredients]
+
+
+class Portion(BaseModel):
+    energia_receita: int
+    energia_media: int
+
+
+class Energy(BaseModel):
+    receita: List[Ingredients]
