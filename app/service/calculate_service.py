@@ -17,6 +17,7 @@ def calculate_from_recipe(recipe: Recipe):
     total_protein = []
     total_total_fat = []
     total_saturated_fat = []
+    total_trans_fat = []
     total_fiber = []
     total_sodium = []
     total_quantity = []
@@ -45,6 +46,11 @@ def calculate_from_recipe(recipe: Recipe):
         else:
             saturated_fat = quantity * (float("{:.2f}".format(ingredients_search.get('saturated_g') / 100)))
         total_saturated_fat.append(saturated_fat)
+        if ingredients_search.get('triglycerides') == "":
+            trans_fat = 0
+        else:
+            trans_fat = quantity * (float("{:.2f}".format(ingredients_search.get('triglycerides_g') / 100)))
+        total_trans_fat.append(trans_fat)
         if ingredients_search.get('fiber_g') == "":
             fiber = 0
         else:
@@ -61,6 +67,7 @@ def calculate_from_recipe(recipe: Recipe):
     table_total_fat = sum(total_total_fat) / sum(total_quantity) * recipe.porcao
     table_energy = (table_carbohydrate * 4) + (table_protein * 4) + (table_total_fat * 9)
     table_saturated_fat = sum(total_saturated_fat) / sum(total_quantity) * recipe.porcao
+    table_trans_fat = sum(total_trans_fat) / sum(total_quantity) * recipe.porcao
     table_fiber = sum(total_fiber) / sum(total_quantity) * recipe.porcao
     table_sodium = sum(total_sodium) / sum(total_quantity) * recipe.porcao
 
@@ -79,8 +86,9 @@ def calculate_from_recipe(recipe: Recipe):
             "Proteina": f"{'{0:.2f}'.format(table_protein)}g",
             "Gordura_Total": f"{'{0:.2f}'.format(table_total_fat)}g",
             "Gordura_Saturada": f"{'{0:.2f}'.format(table_saturated_fat)}g",
+            "Gordura_trans": f"{'{0:.2f}'.format(table_trans_fat)}g",
             "Fibra": f"{'{0:.2f}'.format(table_fiber)}g",
-            "Sodio": f"{'{0:.2f}'.format(table_sodium)}g",
+            "Sodio": f"{'{0:.2f}'.format(table_sodium)}mg",
         },
         "%VD": {
             "Energia": f"{'{0:.2f}'.format(diary_value_energy)}g",
@@ -88,8 +96,9 @@ def calculate_from_recipe(recipe: Recipe):
             "Proteina": f"{'{0:.2f}'.format(diary_value_protein)}g",
             "Gordura_Total": f"{'{0:.2f}'.format(diary_value_total_fat)}g",
             "Gordura_Saturada": f"{'{0:.2f}'.format(diary_value_saturated_fat)}g",
+            "Gordura_Trans": f"Valor Diário não estabelecido",
             "Fibra": f"{'{0:.2f}'.format(diary_value_fiber)}g",
-            "Sodio": f"{'{0:.2f}'.format(diary_value_sodium)}g",
+            "Sodio": f"{'{0:.2f}'.format(diary_value_sodium)}mg",
         }
     }
 
