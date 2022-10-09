@@ -9,6 +9,7 @@ class Ingredients(BaseModel):
 
 class Recipe(BaseModel):
     porcao: int
+    peso_final: int
     receita: List[Ingredients]
 
 

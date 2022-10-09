@@ -25,16 +25,16 @@ def get_description(description: str):
     return JSONResponse(data)
 
 
-@app.post('/calculo_rotulagem', status_code=200)
+@app.post('/calculoRotulagem', status_code=200)
 def calculate_table(recipe: Recipe):
     return calculate_from_recipe(recipe)
 
 
-@app.post('/calculo_energia', status_code=200)
+@app.post('/calculoEnergia', status_code=200)
 def calculate_energy(energy: Energy):
     return calculate_energy_for_recipe(energy)
 
 
-@app.post('/calculo_porcao', status_code=200)
+@app.post('/calculoPorcao', status_code=200)
 def calculate_portion(portion: Portion):
     return calculate_portion_for_receipe(portion)
