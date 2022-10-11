@@ -63,14 +63,14 @@ def calculate_from_recipe(recipe: Recipe):
             sodium = quantity * (float(ingredients_search.get('sodium_mg') / 100))
         total_sodium.append(sodium)
 
-    table_carbohydrate = sum(total_carbohydrate) / final_height * recipe.porcao
-    table_protein = sum(total_protein) / final_height * recipe.porcao
-    table_total_fat = sum(total_total_fat) / final_height * recipe.porcao
-    table_energy = (table_carbohydrate * 4) + (table_protein * 4) + (table_total_fat * 9)
+    table_carbohydrate = round(sum(total_carbohydrate) / final_height * recipe.porcao)
+    table_protein = round(sum(total_protein) / final_height * recipe.porcao, 1)
+    table_total_fat = round(sum(total_total_fat) / final_height * recipe.porcao, 1)
+    table_energy = round((table_carbohydrate * 4) + (table_protein * 4) + (table_total_fat * 9))
     table_saturated_fat = round(sum(total_saturated_fat) / final_height * recipe.porcao, 1)
-    table_trans_fat = sum(total_trans_fat) / final_height * recipe.porcao
-    table_fiber = sum(total_fiber) / final_height * recipe.porcao
-    table_sodium = sum(total_sodium) / final_height * recipe.porcao
+    table_trans_fat = round(sum(total_trans_fat) / final_height * recipe.porcao, 1)
+    table_fiber = round(sum(total_fiber) / final_height * recipe.porcao, 1)
+    table_sodium = round(sum(total_sodium) / final_height * recipe.porcao)
 
     diary_value_energy = table_energy * 100 / diary_energy
     diary_value_carbohydrate = table_carbohydrate * 100 / diary_carbohydrate
@@ -82,14 +82,14 @@ def calculate_from_recipe(recipe: Recipe):
 
     return {
         "Quantidade": {
-            "Energia": f"{'{0:.3f}'.format(table_energy)}g",
-            "Carboidrato": f"{'{0:.3f}'.format(table_carbohydrate)}g",
-            "Proteina": f"{'{0:.3f}'.format(table_protein)}g",
-            "Gordura_Total": f"{'{0:.3f}'.format(table_total_fat)}g",
-            "Gordura_Saturada": f"{'{0:.3f}'.format(table_saturated_fat)}g",
-            "Gordura_trans": f"{'{0:.3f}'.format(table_trans_fat)}g",
-            "Fibra": f"{'{0:.3f}'.format(table_fiber)}g",
-            "Sodio": f"{'{0:.3f}'.format(table_sodium)}mg",
+            "Energia": f"{table_energy}kcal",
+            "Carboidrato": f"{table_carbohydrate}g",
+            "Proteina": f"{table_protein}g",
+            "Gordura_Total": f"{table_total_fat}g",
+            "Gordura_Saturada": f"{table_saturated_fat}g",
+            "Gordura_trans": f"{table_trans_fat}g",
+            "Fibra": f"{table_fiber}g",
+            "Sodio": f"{table_sodium}mg",
         },
         "%VD": {
             "Energia": f"{round(diary_value_energy)}%",
@@ -138,7 +138,7 @@ def calculate_energy_for_recipe(energy: Energy):
     table_energy = (table_carbohydrate * 4) + (table_protein * 4) + (table_total_fat * 9)
 
     return {
-        "Energia": f"{'{0:.3f}'.format(table_energy)}g"
+        "Energia": f"{'{0:.3f}'.format(table_energy)}kcal"
     }
 
 
