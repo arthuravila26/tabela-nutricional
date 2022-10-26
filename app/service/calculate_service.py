@@ -81,25 +81,25 @@ def calculate_from_recipe(recipe: Recipe):
     diary_value_sodium = table_sodium * 100 / diary_sodium
 
     return {
-        "Quantidade": {
-            "Energia": f"{table_energy}kcal",
-            "Carboidrato": f"{table_carbohydrate}g",
-            "Proteina": f"{table_protein}g",
-            "Gordura_Total": f"{table_total_fat}g",
-            "Gordura_Saturada": f"{table_saturated_fat}g",
-            "Gordura_trans": f"{table_trans_fat}g",
-            "Fibra": f"{table_fiber}g",
-            "Sodio": f"{table_sodium}mg",
+        "quantidade": {
+            "energia": f"{table_energy}kcal",
+            "carboidrato": f"{table_carbohydrate}g",
+            "proteina": f"{table_protein}g",
+            "gordura_total": f"{table_total_fat}g",
+            "gordura_saturada": f"{table_saturated_fat}g",
+            "gordura_trans": f"{table_trans_fat}g",
+            "fibra": f"{table_fiber}g",
+            "sodio": f"{table_sodium}mg",
         },
         "%VD": {
-            "Energia": f"{round(diary_value_energy)}%",
-            "Carboidrato": f"{round(diary_value_carbohydrate)}%",
-            "Proteina": f"{round(diary_value_protein)}%",
-            "Gordura_Total": f"{round(diary_value_total_fat)}%",
-            "Gordura_Saturada": f"{round(diary_value_saturated_fat)}%",
-            "Gordura_Trans": f"Valor Diário não estabelecido",
-            "Fibra": f"{round(diary_value_fiber)}%",
-            "Sodio": f"{round(diary_value_sodium)}%",
+            "energia": f"{round(diary_value_energy)}%",
+            "carboidrato": f"{round(diary_value_carbohydrate)}%",
+            "proteina": f"{round(diary_value_protein)}%",
+            "gordura_total": f"{round(diary_value_total_fat)}%",
+            "gordura_saturada": f"{round(diary_value_saturated_fat)}%",
+            "gordura_trans": f"Valor Diário não estabelecido",
+            "fibra": f"{round(diary_value_fiber)}%",
+            "sodio": f"{round(diary_value_sodium)}%",
         }
     }
 
@@ -138,7 +138,7 @@ def calculate_energy_for_recipe(energy: Energy):
     table_energy = (table_carbohydrate * 4) + (table_protein * 4) + (table_total_fat * 9)
 
     return {
-        "Energia": f"{'{0:.3f}'.format(table_energy)}kcal"
+        "energia": f"{'{0:.3f}'.format(table_energy)}kcal"
     }
 
 
@@ -146,5 +146,5 @@ def calculate_portion_for_receipe(portion: Portion):
     portion_total = 100 * (float(portion.energia_media / portion.energia_receita))
 
     return {
-        "Porcao": f"{'{0:.3f}'.format(portion_total)}g"
+        "porcao": f"{'{0:.3f}'.format(portion_total)}g"
     }
